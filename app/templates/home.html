@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <h1>
-        Test Login!
-    </h1>
+    <form action="{{ url_for("checkLogin")}}" method="post">
+        <label for="uform"> Username:</label>
+        <input type="text" id="uform" name="User"><br><br>
+        <label for="pform"> Password:</label>
+        <input type="text" id="pform" name="Password"><br><br>
+        <input type="submit" id="fname" name="Submit"><br><br>
 </html>

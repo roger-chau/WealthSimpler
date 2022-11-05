@@ -1,3 +1,4 @@
 # All Python Library & Module Dependencies
 flask-login
 flask
+Flask-MySQLdb
